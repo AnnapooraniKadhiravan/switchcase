@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+      <head>
+         <title>Switch case</title>
+        <script type = "text/javascript">
+          
+        </script>
+     </head><body>
+     <p>Click the Button</p>
+     <button onclick="myFunction()">Click Here</button>
+     <p id="demo"></p>
+     <script >
+     	function myFunction(){
+     		var number;
+     		var myCar = prompt("what's your fav car?","1");
+     		switch(myCar){
+     			case "1":
+     			number= "BMW";
+     			break;
+     			case "2":
+     			number = "Rolls Royce is the best";
+     			break;
+     			default:
+     			number = "Nano";
+     			break;
+     		}
+     		document.getElementById("demo").innerHTML = number;
+     	}
+     </script>
+     </body>
+  </html>
